@@ -1,0 +1,39 @@
+@for $i from 0 through 10{
+    .border-radius#{$i*5}{border-radius:#{$i*5}px!important;}
+}
+.nbr{
+    border:none!important;
+    &::after{       // 针对 vux 表框
+        border:none!important;
+    }
+}
+.border,
+.border-b{
+    border-bottom:1px solid #eee !important;
+}
+.border,
+.border-t{
+    border-top:1px solid #eee !important;
+}
+.border,
+.border-l{
+    border-left:1px solid #eee !important;
+}
+.border,
+.border-r{
+    border-right:1px solid #eee !important;
+}
+.border-radius{
+    border-radius:50%;
+}
+.outline{
+  outline: none;
+}
+.border-l-s-d{
+    border-left-style: dashed;
+}
+.border-r-s-d{
+    border-right-style: dashed;
+}
+
+
